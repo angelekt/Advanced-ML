@@ -1,0 +1,13 @@
+n_joints: 10 # number of joints (for the example is either 3 or 100)
+n_joints_3: 3 # figures 1,2,3,4
+n_joints_100: 100 # figures 1,2,3,4
+joint_length: 1 # length of each joint, every joint has the same length
+dt: 0.001 # timing step
+T: 2 # the whole maximal duration to reach the target
+lr: 0.0001 # learning rate
+alpha: 100 # parameter, the bigger the better
+v: 0.5 # the variance of noise
+elbo: True # if this value is true, then the ELBO diagram is computed
+Example1: False # True # set True if you want to reproduce figure 1,2,4
+Example2: True # False # set True if you want to reproduce figure 3
+target_flag: False #  set True if you want your random configuration of the target
